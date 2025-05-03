@@ -1,0 +1,12 @@
+<h1>Template Driven Code</h1>
+<form>
+<label for="username">Username</label>&nbsp;
+<input type="text" name="username" [(ngModel)]="user.username">
+<br>
+<br>
+<label for="password">Password</label>&nbsp;
+<input type="password" name="password" [(ngModel)]="user.password">
+<br>
+<br>
+<button (click)="userlogin()">Submit</button>
+</form>
